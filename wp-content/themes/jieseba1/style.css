@@ -10,10 +10,19 @@ Version:     1.00.0
 @import url("../customizr/style.css");
 
 body,body p{
-    font: 0.9375rem/1.5 Helvetica Neue,Helvetica,Arial,"Microsoft Yahei","PingFang SC","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    font: 1rem/1.5 Helvetica Neue,Helvetica,Arial,"Microsoft Yahei","PingFang SC","Heiti SC","WenQuanYi Micro Hei",sans-serif;
 }
 
 /*侧边栏*/
 .right.sidebar.tc-sidebar.col-12.col-md-3.text-md-right {
     background: #fafafa;
+}
+
+
+.grid .entry-title, .grid .woocommerce .woocommerce-products-header .page-title, .grid-title_size, .woocommerce .woocommerce-products-header .grid .page-title {
+    font-size: 1.2rem;
+}
+
+h1.entry-title {
+    font-size: 1.4rem;
 }
