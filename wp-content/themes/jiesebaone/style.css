@@ -8,13 +8,15 @@ Version:        0.1.0
 */
 
 
-.entry {
-    color: black;
-}
 
 html {
     font-size: 62.5%;    
 }
+
+.entry {
+    color: black;
+}
+
 
 body,body p{
     font: 1.6rem/1.5 Helvetica Neue,Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","PingFang SC","Heiti SC","WenQuanYi Micro Hei",sans-serif;
@@ -41,14 +43,16 @@ body,body p{
 
 .post-title{
     font-family: Helvetica Neue,Helvetica,Arial,"Microsoft Yahei","PingFang SC","Heiti SC","WenQuanYi Micro Hei",sans-serif;
-}
-.single .post-title {
-    color: #444444;
-    font-size: 2.8rem;
-    letter-spacing: 0.06rem;
-    font-weight: 500;
+    
+    color: #444;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5em;
 }
 
+.entry.excerpt p{
+    color: #666;
+}
 
 .entry h2{
     color: #424141;
