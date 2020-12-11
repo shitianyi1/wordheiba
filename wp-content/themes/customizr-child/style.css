@@ -1,0 +1,57 @@
+/*
+Theme Name: 戒色吧
+Theme URI: https://www.jieseba.com/
+Template: customizr
+Author: 诫色吧
+Author URI: https://www.jieseba.com/
+Description: 诫色吧-反对宗教戒色，反对适度手淫
+Version: 1.0.1607580327
+Updated: 2020-12-10 14:05:27
+
+*/
+
+.czr-wp-the-content p{
+    font: 0.9375rem/1.6 Helvetica Neue,Helvetica,Arial,"Microsoft Yahei","PingFang SC","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	letter-spacing: 0.05rem;
+    padding-bottom: 5px;
+}
+
+
+ul li{
+	font-size: 0.8125rem;
+}
+
+img.tc-smart-loaded{
+	text-align: center;
+}
+
+#content, #main-wrapper {
+    padding-bottom: 2.5em;
+    background: #f9f9f9;
+}
+
+.container #content article {
+    background: #fff;
+    padding: 20px;
+	border-radius: 10px;
+}
+
+.container .flex-row .right.sidebar.tc-sidebar.col-12.col-md-3.text-md-right #right .widget{
+	background: #fff;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.container .flex-row ul li a {
+    border-bottom: 1px solid #e2e2e2;
+	    padding: 0 0 5px 0;
+}
+
+section div .flickity-viewport{
+	height: 180px;
+    touch-action: pan-y;
+}
+
+div h1 a span{
+	font-size:1.8rem;
+}
