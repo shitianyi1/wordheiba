@@ -21,7 +21,7 @@ ul li{
 	font-size: 0.8125rem;
 }
 
-img.tc-smart-loaded{
+img .tc-smart-loaded{
 	text-align: center;
 }
 
@@ -45,6 +45,10 @@ img.tc-smart-loaded{
 .container .flex-row ul li a {
     border-bottom: 1px solid #e2e2e2;
 	    padding: 0 0 5px 0;
+}
+
+.nav__menu .menu-item .nav__link, .search-toggle_btn.icn-search.czr-overlay-toggle_btn {
+    border-bottom: 0px;
 }
 
 section div .flickity-viewport{
