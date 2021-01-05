@@ -11,10 +11,10 @@ Updated: 2020-12-10 14:05:27
 */
 
 .czr-wp-the-content p{
-    font: 0.9375rem/1.6 Helvetica Neue,Helvetica,Arial,"Microsoft Yahei","PingFang SC","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
-	letter-spacing: 0.05rem;
+	font: 1rem/1.6 Helvetica Neue,Helvetica,Arial,"Microsoft Yahei","PingFang SC","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    letter-spacing: 0.05rem;
     padding-bottom: 5px;
-	font-weight: 300;
+    font-weight: 300;
     color: #000;
 }
 
