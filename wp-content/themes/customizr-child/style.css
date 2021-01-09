@@ -20,7 +20,7 @@ Updated: 2020-12-10 14:05:27
 
 
 ul li{
-	font-size: 0.8125rem;
+	font-size: .875rem;
 }
 
 img  .tc-smart-loaded{
@@ -34,15 +34,29 @@ img  .tc-smart-loaded{
 
 .container #content article {
     background: #fff;
-    padding: 20px;
-	border-radius: 10px;
+    padding: 1rem;
+	border-radius: .75rem;
 }
 
 .container .flex-row .right.sidebar.tc-sidebar.col-12.col-md-3.text-md-right #right .widget{
 	background: #fff;
-	padding: 20px;
-	border-radius: 10px;
+	padding: 1rem;
+	border-radius: .75rem;
 }
+
+b,p strong {
+    color: #444;
+    font-weight: 400;
+}
+
+h4#toc_0 {
+    font-weight: 500;
+    border-left: rgb(179, 22, 22) 2px solid;
+    margin-left: -20px;
+    padding-left: 10px;
+}
+
+
 
 .container .flex-row ul li a {
     border-bottom: 1px solid #e2e2e2;
