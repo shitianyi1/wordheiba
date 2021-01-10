@@ -2,29 +2,51 @@
 Theme Name: 戒色吧
 Theme URI: https://www.jieseba.com/
 Template: customizr
-Author: 戒色吧
+Author: 诫色吧
 Author URI: https://www.jieseba.com/
-Description: 戒色吧——反对宗教戒色，反对适度手淫
-Version: 1.0.1607580327
-Updated: 2020-12-10 14:05:27
+Description: 诫色吧-反对宗教戒色，反对适度手淫
+Version: 1.0.1607580450
+Updated: 2020-12-10 20:14:27
 
 */
 
 .czr-wp-the-content p{
-	font: 1rem/1.6 Helvetica Neue,Helvetica,Arial,"Microsoft Yahei","PingFang SC","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	
+	font: 0.9375rem/1.8 -apple-system, system-ui, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 0.05rem;
     padding-bottom: 5px;
-    font-weight: 300;
-    color: #000;
+    font-weight: 400;
 }
 
+b,p strong {
+    color: #222;
+    font-weight: 500;
+}
+
+.czr-wp-the-content h2,.czr-wp-the-content h3,.czr-wp-the-content h4,.czr-wp-the-content h5 {
+    font-weight: 700;
+    margin-left: -1rem;
+    padding-left: .6rem;
+}
+
+.czr-wp-the-content h2 {
+    border-left: rgb(179, 22, 22) 6px solid;
+}
+
+.czr-wp-the-content h3 {
+    border-left: rgb(179, 22, 22) 4px solid;
+}
+
+.czr-wp-the-content h4 {
+    border-left: rgb(179, 22, 22) 3px solid;
+}
+
+.czr-wp-the-content h5 {
+    border-left: rgb(179, 22, 22) 2px solid;
+}
 
 ul li{
 	font-size: .875rem;
-}
-
-img  .tc-smart-loaded{
-	text-align: center;
 }
 
 #content, #main-wrapper {
@@ -44,20 +66,6 @@ img  .tc-smart-loaded{
 	border-radius: .75rem;
 }
 
-b,p strong {
-    color: #444;
-    font-weight: 400;
-}
-
-h4#toc_0 {
-    font-weight: 500;
-    border-left: rgb(179, 22, 22) 2px solid;
-    margin-left: -20px;
-    padding-left: 10px;
-}
-
-
-
 .container .flex-row ul li a {
     border-bottom: 1px solid #e2e2e2;
 	    padding: 0 0 5px 0;
@@ -74,4 +82,8 @@ section div .flickity-viewport{
 
 div h1 a span{
 	font-size:1.8rem;
+}
+
+.widget.widget_media_image {
+    text-align: center;
 }
