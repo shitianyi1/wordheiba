@@ -20,7 +20,7 @@ Updated: 2020-12-10 20:14:27
 
 b,p strong {
     color: #222;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .czr-wp-the-content h2,.czr-wp-the-content h3,.czr-wp-the-content h4,.czr-wp-the-content h5 {
@@ -45,7 +45,7 @@ b,p strong {
     border-left: rgb(179, 22, 22) 2px solid;
 }
 
-ul li{
+ol li, ul li{
 	font-size: .875rem;
 }
 
