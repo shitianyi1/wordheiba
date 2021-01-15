@@ -5,28 +5,28 @@ Template: customizr
 Author: 诫色吧
 Author URI: https://www.jieseba.com/
 Description: 诫色吧-反对宗教戒色，反对适度手淫
-Version: 1.0.1607580450
-Updated: 2020-12-10 20:14:27
+Version: 1.0.1607580327
+Updated: 2020-12-10 14:05:27
 
 */
 
 .czr-wp-the-content p{
-	
 	font: 0.9375rem/1.8 -apple-system, system-ui, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.025rem;
     padding-bottom: 5px;
     font-weight: 400;
 }
 
 b,p strong {
-    color: #222;
-    font-weight: 700;
+    color: #333;
+    font-weight: 600;
 }
 
 .czr-wp-the-content h2,.czr-wp-the-content h3,.czr-wp-the-content h4,.czr-wp-the-content h5 {
     font-weight: 700;
     margin-left: -1rem;
-    padding-left: .6rem;
+    padding:0.4rem 0.6rem;
+    background-color: #f9f9f9;
 }
 
 .czr-wp-the-content h2 {
@@ -41,12 +41,19 @@ b,p strong {
     border-left: rgb(179, 22, 22) 3px solid;
 }
 
-.czr-wp-the-content h5 {
-    border-left: rgb(179, 22, 22) 2px solid;
+ol li, ul li{
+	/*font: 0.875rem/1.8 "Hiragino Sans GB", "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-size: 0.875rem;
+	color: #595959;
 }
 
-ol li, ul li{
-	font-size: .875rem;
+/*导航菜单*/
+ul li a .nav__title {
+    font-weight: 700;
+}
+
+div h1 a span{
+	font-size:1.8rem;
 }
 
 #content, #main-wrapper {
@@ -60,15 +67,8 @@ ol li, ul li{
 	border-radius: .75rem;
 }
 
-.container .flex-row .right.sidebar.tc-sidebar.col-12.col-md-3.text-md-right #right .widget{
-	background: #fff;
-	padding: 1rem;
-	border-radius: .75rem;
-}
-
-.container .flex-row ul li a {
-    border-bottom: 1px solid #e2e2e2;
-	    padding: 0 0 5px 0;
+.post-footer.clearfix div .tags li a span,.entry-footer .tags li a span{
+    color:#fff;
 }
 
 .nav__menu .menu-item .nav__link, .search-toggle_btn.icn-search.czr-overlay-toggle_btn {
@@ -80,10 +80,46 @@ section div .flickity-viewport{
     touch-action: pan-y;
 }
 
-div h1 a span{
-	font-size:1.8rem;
-}
-
 .widget.widget_media_image {
     text-align: center;
+}
+
+/*作者*/
+.post-author .post-author__wrapper {
+    background: #fff;
+    border-radius: 0.75rem;
+}
+
+/*推荐*/
+.entry-content__wrapper .czr-wp-the-content p {
+    font-size: .625px;
+}
+
+.entry-header-inner .entry-meta.post-info {
+    padding-bottom: 5px;
+}
+
+.grid-container__square-mini .grid__item{
+    background: #fff;
+    border-radius: 0;
+}
+
+/*标签*/
+.container .flex-row .right.sidebar.tc-sidebar.col-12.col-md-3.text-md-right #right .widget{
+	background: #fff;
+	padding: 1rem;
+	border-radius: .75rem;
+}
+
+.container .flex-row ul li a {
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+    border-bottom: 1px solid #e2e2e2;
+	padding: 4px;
+}
+
+.post-footer.clearfix div .tags li a,.entry-footer .tags li a{
+    background: #888;
+    font-size: 0.5625rem;
+    
 }
