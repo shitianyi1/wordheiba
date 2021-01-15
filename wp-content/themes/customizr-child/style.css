@@ -9,10 +9,9 @@ Version: 1.0.1607580327
 Updated: 2020-12-10 14:05:27
 
 */
-
 .czr-wp-the-content p{
-	font: 0.9375rem/1.8 -apple-system, system-ui, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    letter-spacing: 0.025rem;
+	font: 0.9375rem/1.8 -apple-system, system-ui, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "PingFang SC", "Hiragino Sans GB","Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.0125rem;
     padding-bottom: 5px;
     font-weight: 400;
 }
@@ -22,29 +21,41 @@ b,p strong {
     font-weight: 600;
 }
 
-.czr-wp-the-content h2,.czr-wp-the-content h3,.czr-wp-the-content h4,.czr-wp-the-content h5 {
+.czr-wp-the-content h2,.czr-wp-the-content h3,.czr-wp-the-content h4 {
     font-weight: 700;
-    margin-left: -1rem;
+    margin-left: -20px;
     padding:0.4rem 0.6rem;
     background-color: #f9f9f9;
+    letter-spacing: 0.05rem;
 }
-
+.czr-wp-the-content h2{
+    font-size: 1.5;
+}
+.czr-wp-the-content h3{
+    font-size: 1.375rem;
+}
+.czr-wp-the-content h4{
+    font-size: 1.25rem;
+}
 .czr-wp-the-content h2 {
-    border-left: rgb(179, 22, 22) 6px solid;
+    border-left: #285973 8px solid;
 }
-
 .czr-wp-the-content h3 {
-    border-left: rgb(179, 22, 22) 4px solid;
+    border-left: #148644 6px solid;
 }
-
 .czr-wp-the-content h4 {
-    border-left: rgb(179, 22, 22) 3px solid;
+    border-left: #b13d55 4px solid;
+}
+.czr-wp-the-content h5{
+    font-weight: 700;
+    padding: 0.4rem 0;
+    font-size: 1.125rem;
 }
 
 ol li, ul li{
-	/*font: 0.875rem/1.8 "Hiragino Sans GB", "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	font-size: 0.875rem;
+	font: 0.875rem/1.8 "Hiragino Sans GB", "PingFang SC","Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #595959;
+	letter-spacing: 0.0125rem;
 }
 
 /*导航菜单*/
@@ -58,17 +69,17 @@ div h1 a span{
 
 #content, #main-wrapper {
     padding-bottom: 2.5em;
-    background: #f9f9f9;
+    background: #f5f5f5;
 }
 
 .container #content article {
     background: #fff;
-    padding: 1rem;
+    padding: 20px;
 	border-radius: .75rem;
 }
 
 .post-footer.clearfix div .tags li a span,.entry-footer .tags li a span{
-    color:#fff;
+    color:#fff;;
 }
 
 .nav__menu .menu-item .nav__link, .search-toggle_btn.icn-search.czr-overlay-toggle_btn {
@@ -86,7 +97,7 @@ section div .flickity-viewport{
 
 /*作者*/
 .post-author .post-author__wrapper {
-    background: #fff;
+    background: #fff;;
     border-radius: 0.75rem;
 }
 
@@ -100,14 +111,14 @@ section div .flickity-viewport{
 }
 
 .grid-container__square-mini .grid__item{
-    background: #fff;
+    background: #fff;;
     border-radius: 0;
 }
 
 /*标签*/
 .container .flex-row .right.sidebar.tc-sidebar.col-12.col-md-3.text-md-right #right .widget{
-	background: #fff;
-	padding: 1rem;
+	background: #fff;;
+	padding: 20px;
 	border-radius: .75rem;
 }
 
@@ -121,5 +132,4 @@ section div .flickity-viewport{
 .post-footer.clearfix div .tags li a,.entry-footer .tags li a{
     background: #888;
     font-size: 0.5625rem;
-    
 }
