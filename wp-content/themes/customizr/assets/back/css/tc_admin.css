@@ -2,12 +2,12 @@
   font-family: 'Font Awesome\ 5 Free';
   font-style: normal;
   font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/gh/shitianyi1/wordheiba/wp-content/themes/customizr/assets/shared/fonts/fa/webfonts/fa-regular-400.eot");
-  src: url("https://cdn.jsdelivr.net/gh/shitianyi1/wordheiba/wp-content/themes/customizr/assets/shared/fonts/fa/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"),
-       url("https://cdn.jsdelivr.net/gh/shitianyi1/wordheiba/wp-content/themes/customizr/assets/shared/fonts/fa/webfonts/fa-regular-400.woff2") format("woff2"),
-       url("https://cdn.jsdelivr.net/gh/shitianyi1/wordheiba/wp-content/themes/customizr/assets/shared/fonts/fa/webfonts/fa-regular-400.woff") format("woff"),
-       url("https://cdn.jsdelivr.net/gh/shitianyi1/wordheiba/wp-content/themes/customizr/assets/shared/fonts/fa/webfonts/fa-regular-400.ttf") format("truetype"),
-       url("https://cdn.jsdelivr.net/gh/shitianyi1/wordheiba/wp-content/themes/customizr/assets/shared/fonts/fa/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+  src: url(" https://cdn.jsdelivr.net/gh/shitianyi1/wordheiba/wp-content/themes/customizr/assets/shared/fonts/fa/webfonts/fa-regular-400.eot");
+  src: url(" https://cdn.jsdelivr.net/gh/shitianyi1/wordheiba/wp-content/themes/customizr/assets/shared/fonts/fa/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+       url(" https://cdn.jsdelivr.net/gh/shitianyi1/wordheiba/wp-content/themes/customizr/assets/shared/fonts/fa/webfonts/fa-regular-400.woff2") format("woff2"),
+       url(" https://cdn.jsdelivr.net/gh/shitianyi1/wordheiba/wp-content/themes/customizr/assets/shared/fonts/fa/webfonts/fa-regular-400.woff") format("woff"),
+       url(" https://cdn.jsdelivr.net/gh/shitianyi1/wordheiba/wp-content/themes/customizr/assets/shared/fonts/fa/webfonts/fa-regular-400.ttf") format("truetype"),
+       url(" https://cdn.jsdelivr.net/gh/shitianyi1/wordheiba/wp-content/themes/customizr/assets/shared/fonts/fa/webfonts/fa-regular-400.svg#fontawesome") format("svg");
 }
 .tc-config-info {
   clear: both;
