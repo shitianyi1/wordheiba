@@ -138,3 +138,7 @@ cite{
     color: #333;
     font-weight: 400;
 }
+
+.post-info .row [class*=col] {
+    padding: .2rem 8px;
+}
