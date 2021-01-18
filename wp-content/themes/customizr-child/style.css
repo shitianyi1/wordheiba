@@ -1,10 +1,10 @@
 /*
-Theme Name: 戒色吧
-Theme URI: https://www.jieseba.com/
+Theme Name: 晓得伐
+Theme URI: https://www.xiaodefa.com/
 Template: customizr
-Author: 诫色吧
-Author URI: https://www.jieseba.com/
-Description: 诫色吧-反对宗教戒色，反对适度手淫
+Author: 晓得伐
+Author URI: https://www.xiaodefa.com/
+Description: 晓得伐-晓你所晓，得你所得
 Version: 1.0.1607580327
 Updated: 2020-12-10 14:05:27
 
@@ -52,7 +52,7 @@ b,p strong {
     font-size: 1.125rem;
 }
 
-ol li, ul li{
+ol li, ul li,cite{
 	font: 0.875rem/1.8 "Hiragino Sans GB", "PingFang SC","Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #595959;
 	letter-spacing: 0.0125rem;
@@ -132,4 +132,9 @@ section div .flickity-viewport{
 .post-footer.clearfix div .tags li a,.entry-footer .tags li a{
     background: #888;
     font-size: 0.5625rem;
+}
+
+cite{
+    color: #333;
+    font-weight: 400;
 }
