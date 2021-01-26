@@ -1,14 +1,16 @@
 /*
-Theme Name: 晓得伐
-Theme URI: https://www.xiaodefa.com/
+Theme Name: 戒色吧
+Theme URI: https://www.jieseba.com/
 Template: customizr
-Author: 晓得伐
-Author URI: https://www.xiaodefa.com/
-Description: 晓得伐-晓你所晓，得你所得
-Version: 1.0.1607580327
-Updated: 2020-12-10 14:05:27
+Author: 诫色吧
+Author URI: https://www.jieseba.com/
+Description: 诫色吧-反对宗教戒色，反对适度手淫
+Version: 1.0.1706320327
+Updated: 2021-01-21 14:05:27
 
 */
+
+/*字体全局设置*/
 .czr-wp-the-content p{
 	font: 0.9375rem/1.8 -apple-system, system-ui, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "PingFang SC", "Hiragino Sans GB","Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 0.0125rem;
@@ -16,9 +18,49 @@ Updated: 2020-12-10 14:05:27
     font-weight: 400;
 }
 
-b,p strong {
-    color: #333;
+ul li,ol li,span,cite,figcaption,h1,h2,h3,h4,h5,h6,a,div{
+    font-family: Helvetica Neue, Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+    letter-spacing: 0.0125rem;
+}
+
+ol li, ul li{
+	font-size: .875rem;
+	line-height: 1.8;
+	color: #595959;
+}
+
+cite,figcaption,.row nav span,.row nav a,.theiaStickySidebar .widget.widget_tag_cloud .tagcloud{
+    font-size : .75rem;
+}
+
+#main-menu li .nav__link .nav__title,.fa,.fas{
+    font-size: .875rem;
+}
+
+cite,figcaption,.row nav span{
+    line-height: 1.8;
+    color: #555;
+    font-weight: 400;
+}
+
+b,p strong,li strong,strong {
+    color: #444;
     font-weight: 600;
+}
+
+/*标题*/
+h1.archive-title,.entry-header .entry-header-inner h1.entry-title{
+    font-size: 1.75rem;
+    line-height: 1.6;
+}
+
+.entry-header .entry-title{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.archive-title,.entry-header .czr-title{
+    letter-spacing: 0.05rem;
 }
 
 .czr-wp-the-content h2,.czr-wp-the-content h3,.czr-wp-the-content h4 {
@@ -29,14 +71,20 @@ b,p strong {
     letter-spacing: 0.05rem;
 }
 .czr-wp-the-content h2{
-    font-size: 1.5;
-}
-.czr-wp-the-content h3{
     font-size: 1.375rem;
 }
-.czr-wp-the-content h4{
+.czr-wp-the-content h3{
     font-size: 1.25rem;
 }
+.czr-wp-the-content h4{
+    font-size: 1.125rem;
+}
+.czr-wp-the-content h5{
+    font-weight: 700;
+    padding: 0.4rem 0;
+    font-size: 1rem;
+}
+
 .czr-wp-the-content h2 {
     border-left: #285973 8px solid;
 }
@@ -45,17 +93,6 @@ b,p strong {
 }
 .czr-wp-the-content h4 {
     border-left: #b13d55 4px solid;
-}
-.czr-wp-the-content h5{
-    font-weight: 700;
-    padding: 0.4rem 0;
-    font-size: 1.125rem;
-}
-
-ol li, ul li,cite{
-	font: 0.875rem/1.8 "Hiragino Sans GB", "PingFang SC","Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #595959;
-	letter-spacing: 0.0125rem;
 }
 
 /*导航菜单*/
@@ -67,9 +104,23 @@ div h1 a span{
 	font-size:1.8rem;
 }
 
+/*内容、侧边栏*/
 #content, #main-wrapper {
     padding-bottom: 2.5em;
     background: #f5f5f5;
+}
+
+/*侧边栏*/
+.container .flex-row ul li a {
+    color: #555;
+    border-bottom: 1px solid #e2e2e2;
+	padding: 4px;
+	font-size: .8125rem;
+}
+.sidebar .widget-title,.widget-title .rsswidget{
+    font-size: .875rem;
+    color: #333;
+    /*font-weight: 600;*/
 }
 
 .container #content article {
@@ -115,30 +166,24 @@ section div .flickity-viewport{
     border-radius: 0;
 }
 
-/*标签*/
+/*侧边栏*/
 .container .flex-row .right.sidebar.tc-sidebar.col-12.col-md-3.text-md-right #right .widget{
 	background: #fff;;
-	padding: 20px;
+	padding: 15px 15px;
 	border-radius: .75rem;
 }
 
-.container .flex-row ul li a {
-    font-family: "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #555;
-    border-bottom: 1px solid #e2e2e2;
-	padding: 4px;
-}
 
 .post-footer.clearfix div .tags li a,.entry-footer .tags li a{
     background: #888;
     font-size: 0.5625rem;
 }
 
-cite{
-    color: #333;
-    font-weight: 400;
-}
-
 .post-info .row [class*=col] {
     padding: .2rem 8px;
+}
+
+/*底部导航*/
+.post-navigation {
+    background-color: #f5f5f5;
 }
